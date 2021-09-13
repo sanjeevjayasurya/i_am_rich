@@ -9,7 +9,7 @@ void main() {
           child: Image.network('https://i.giphy.com/media/l1KVccToDJ6oz6qYg/giphy.webp'),
         ),
         appBar: AppBar(
-          title: Text('I\'m Rich'),
+          title: Text('I\'m Rich '),
           backgroundColor: Colors.blueGrey.shade900,
         ),
         backgroundColor: Colors.black,
