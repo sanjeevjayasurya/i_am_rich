@@ -4,8 +4,15 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Hello World'),
+      home: Scaffold(
+        body: Center(
+          child: Image.network('https://i.giphy.com/media/l1KVccToDJ6oz6qYg/giphy.webp'),
+        ),
+        appBar: AppBar(
+          title: Text('I\'m Rich'),
+          backgroundColor: Colors.blueGrey.shade900,
+        ),
+        backgroundColor: Colors.black,
       ),
     ),
   );
