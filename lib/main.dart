@@ -6,10 +6,10 @@ void main() {
     MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Image.network('https://i.giphy.com/media/l1KVccToDJ6oz6qYg/giphy.webp'),
+          child: Image.asset('images/diamond.webp'),
         ),
         appBar: AppBar(
-          title: Text('I\'m Rich '),
+          title: Text('I\'m Rich'),
           backgroundColor: Colors.blueGrey.shade900,
         ),
         backgroundColor: Colors.black,
